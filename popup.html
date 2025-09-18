@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Posture Pal 🐢</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+    body {
+      font-family: 'Baloo 2', cursive;
+      background-color: #b3dffc; /* baby blue */
+      margin: 0;
+      padding: 20px;
+      width: 250px;
+      color: #000000; /* black text */
+      text-align: center;
+      user-select: none;
+    }
+
+    h3 {
+      font-size: 1.6em;
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-size: 1em;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    input[type="number"] {
+      width: 80px;
+      padding: 8px;
+      font-size: 1.2em;
+      border-radius: 10px;
+      border: 1px solid #000;
+      outline: none;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: #ffffff;
+      color: #000000;
+      font-size: 1em;
+      padding: 10px 20px;
+      border: 2px solid #000000;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: border-color 0.3s ease;
+    }
+
+    button:hover {
+      border-color: navy;
+    }
+
+    .mascot {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="mascot">🐢</div>
+  <h3>Posture Pal</h3>
+  <label for="interval">Remind me every:</label>
+  <input id="interval" type="number" min="1" max="180" /> <span>min</span>
+  <br />
+  <button id="save">Save</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
