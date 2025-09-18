@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Posture Pal 🐢",
+  "version": "1.0",
+  "description": "A fun reminder to check your posture and chill!",
+  "permissions": ["notifications", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
