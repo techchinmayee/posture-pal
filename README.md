@@ -1,2 +1,2 @@
 # posture-pal
-A posture correcion reminder chrome extension
+A posture correction reminder chrome extension
